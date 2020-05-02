@@ -75,7 +75,7 @@ public class Point {
         double Vyy = Math.sin(Y) * V1y_;
 
         this.speed = (new Vec2D((float) (Vxx+Vyx), (float) (Vxy+Vyy)));
-
+/*
         double V2x_ = V1x;
         double V2y_ = V2y;
 
@@ -91,5 +91,6 @@ public class Point {
 
         p1.speed = (new Vec2D((float) (Vxx1+Vyx1), (float) (Vxy1+Vyy1)));
         System.out.println("end: " + p1.pos + " " + this.pos + " " + (Math.hypot(p1.speed.x, p1.speed.y) + Math.hypot(this.speed.x, this.speed.y)));
+    */
     }
 }
